@@ -1,5 +1,49 @@
+    $('#reactNative').on('click', function(){
+       window.open('https://reactnative.dev/', '_blank');
+    });    
+    $('#rabbit').on('click', function(){
+       window.open('https://www.rabbitmq.com/', '_blank');
+    });    
+    $('#docker').on('click', function(){
+       window.open('https://www.docker.com/', '_blank');
+    });    
+    $('#redis').on('click', function(){
+       window.open('https://redis.io/', '_blank');
+    });    
+    $('#python').on('click', function(){
+       window.open('https://www.python.org/downloads/', '_blank');
+    });    
+  
+    $('#springBoot').on('click', function(){
+       window.open('https://spring.io/projects/spring-boot', '_blank');
+    });   
+    $('#nextJS').on('click', function(){
+       window.open('https://nextjs.org/', '_blank');
+    });    
+  
+    $('#express').on('click', function(){
+       window.open('https://expressjs.com/', '_blank');
+    });   
+    $('#vb').on('click', function(){
+       window.open('https://learn.microsoft.com/en-us/dotnet/visual-basic/', '_blank');
+    });    
+    $('#figma').on('click', function(){
+       window.open('https://www.figma.com/', '_blank');
+    });   
+    $('#py').on('click', function(){
+      window.open('https://www.python.org/', '_blank');
+   });    
+    $('#starUML').on('click', function(){
+       window.open('https://staruml.io/', '_blank');
+    });    
     $('#c').on('click', function(){
        window.open('https://docs.microsoft.com/en-us/dotnet/csharp/', '_blank');
+    });    
+    $('#postman').on('click', function(){
+       window.open('https://www.postman.com/', '_blank');
+    });
+    $('#postgres').on('click', function(){
+       window.open('https://www.postgresql.org/', '_blank');
     });
     $('#laravel').on('click', function(){
        window.open('https://laravel.com/docs/8.x/installation', '_blank');
@@ -9,6 +53,9 @@
     });
     $('#react').on('click', function(){
        window.open('https://reactjs.org/', '_blank');
+    });
+    $('#ts').on('click', function(){
+       window.open('https://www.typescriptlang.org/id/docs/handbook/react.html', '_blank');
     });
     $('#css').on('click', function(){
        window.open('https://www.w3schools.com/css/', '_blank');
@@ -71,7 +118,12 @@
        window.open('https://www.adobe.com/sea/products/photoshop.html?sdid=12B9DXDJ&mv=search&ef_id=Cj0KCQiAzfuNBhCGARIsAD1nu-_5uWtfbC03RLAa4U_usnFvjBJeLHQczcjvb8X8pEKuPwH61_Nnu3YaAkWEEALw_wcB:G:s&s_kwcid=AL!3085!3!473940109125!e!!g!!photoshop!703952628!38400836578&gclid=Cj0KCQiAzfuNBhCGARIsAD1nu-_5uWtfbC03RLAa4U_usnFvjBJeLHQczcjvb8X8pEKuPwH61_Nnu3YaAkWEEALw_wcB', '_blank');
     });
     $(document).ready(function(){
+      $('#postgres_img').attr('src','https://raw.githubusercontent.com/meprasetyo/meprasetyo.github.io/master/cv/imgIcon/postgres.png');
+      $('#postman_img').attr('src','https://raw.githubusercontent.com/meprasetyo/meprasetyo.github.io/master/cv/imgIcon/postman.png');
       $('#c_img').attr('src','imgIcon/c.png');
+      
+        $('#express_img').attr('src','imgIcon/express.jpg');
+        $('#py_img').attr('src','imgIcon/py.png');
       $('#restapi_img').attr('src','imgIcon/restapi.png');
       $('#laravel_img').attr('src','imgIcon/laravel.png');
       $('#ci_img').attr('src','imgIcon/CI.png');
@@ -83,6 +135,9 @@
       $('#php8_img').attr('src','imgIcon/php8.png');
       $('#mysql_img').attr('src','imgIcon/mysql.png');
       $('#sqlserver_img').attr('src','imgIcon/sqlserver.png');
+         $('#reactNative_img').attr('src','imgIcon/reactNative.png');
+         $('#python_img').attr('src','imgIcon/python.png');
+      $('#springBoot_img').attr('src','imgIcon/springBoot.png');
       $('#microsoft_img').attr('src','imgIcon/microsoft.png');
       $('#azure_img').attr('src','imgIcon/azure.png');
       $('#centos_img').attr('src','imgIcon/centos.png');
@@ -94,6 +149,15 @@
       $('#visualcode_img').attr('src','imgIcon/visualcode.png');
       $('#filezila_img').attr('src','imgIcon/filezila.png');
       $('#movavi_img').attr('src','imgIcon/movavi.png');
+      $('#ts_img').attr('src','imgIcon/ts.png');
       $('#xampp_img').attr('src','imgIcon/xampp.png');
+      $('#vb_img').attr('src','imgIcon/VB.jpg');
       $('#photoshop_img').attr('src','imgIcon/photoshop.png');
+        $('#nextJS_img').attr('src','imgIcon/nextJS.jpg');
+      $('#figma_img').attr('src','imgIcon/figma.jpg');
+      $('#starUML_img').attr('src','imgIcon/starUML.jpg');
+        $('#redis_img').attr('src','imgIcon/redis.png');
+        $('#docker_img').attr('src','imgIcon/docker.png');
+        $('#rabbit_img').attr('src','imgIcon/rabbit.png');
+        $('#Redis_img').attr('src','https://meprasetyo.github.io/Redis.png');
      });
